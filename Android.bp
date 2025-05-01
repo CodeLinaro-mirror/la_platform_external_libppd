@@ -15,10 +15,10 @@
 cc_library_shared {
     name: "libppd",
 
-    sdk_version: "current",
     visibility: [
         "//vendor:__subpackages__",
         "//external/epson-inkjet-printer-escpr",
+        "//external/hplip",
     ],
 
     cflags: [
