@@ -4,7 +4,7 @@ description:
 
 third_party {
   identifier {
-    type: "Archive"
+    type: "Git"
     value: "https://github.com/OpenPrinting/libppd"
     primary_source: true
     version: "2.1.1"
